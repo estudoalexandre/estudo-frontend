@@ -1,0 +1,124 @@
+
+
+body {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 1, 0.795);
+    color: white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+nav {
+    float: left;
+    width: 30%;
+    background-color: #33333338;
+    padding: 20px;
+    display: block;
+
+}
+
+nav h3 {
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav  a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+
+
+article {
+    padding: 20px;
+    float: right;
+    width: 33.3%;
+
+
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+div {
+    margin: 40px auto;
+}
+
+/*Cria um CIrculo */
+#grafico-01 {
+    background: brown;
+
+    width: 400px;
+    height: 400px;
+    /* overflow scroll */
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+/* Triangulo */
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+
+}
+
+
+
+/* Filtros */
+
+#grafico-01 {
+    filter: drop-shadow(5px 8px 15px #333);
+}
+
+.filtro {
+    filter: grayscale(100%); /* Escala de cinza */
+    filter: blur(5px); /* desfoque */
+    filter: brightness(50%); /* brilho */
+    filter: invert(100%); /* inversão de cores */
+    filter: opacity(50%);
+    filter: saturate(105%) sepia(100%) ; /*combina filtros separados por espaço */
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+}
+
+.coluna {
+    display: block;
+    width: 33.3%;
+    float: left;
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #333;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,58 @@
+section {
+    float: left;
+    width: 60%;
+
+}
+
+article {
+    float: right;
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/* Tablet */
+
+@media (min-width: 769px) {
+    body {
+        background-color: teal;
+    }
+
+    p, h1, h2, h3, li, a, iframe {
+        color: whitesmoke;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    nav {
+        width: 30vw;
+    }
+
+    article {
+        width: 70vw;
+    }
+
+
+    .coluna {
+        width: 50vw;
+        min-width: unset;
+}
+}
+
+/* Mobile First */
+
+@media (max-width: 425px) {
+    nav,
+    article,
+    .coluna {
+        width: 100%;
+        min-width: 320px;
+    }
+}
+
+

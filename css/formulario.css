@@ -1,0 +1,58 @@
+* {
+	font-family: Arial, Helveterica, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background-image: linear-gradient(to right, darkblue, lightblue);
+}
+
+
+header {
+	 	background-image: linear-gradient(to bottom,black, whitesmoke);
+		 padding: 30px;
+		 text-align: center;
+		 font-size: 30px;
+		 color: white;
+			}
+
+
+nav {
+	float: left;
+	width: 30%;
+	padding: 100px;
+	text-decoration: none;
+}
+
+article {
+	float: right;
+	width: 70%;
+	margin: 0;
+}
+
+
+form div {
+	border: 0;
+	border-bottom: 1px solid #33f;
+	margin: 1rem 2 rem;
+	padding: 2rem;
+}
+
+section::after {
+	background: #ccc;
+	content: "";
+	display:;
+	clear: both;
+			}
+
+
+
+
+
+
+footer {
+ 	background-color:;
+  	text-align: center;
+ 	color: white;
+			}
